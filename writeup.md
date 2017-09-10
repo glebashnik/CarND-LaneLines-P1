@@ -33,7 +33,7 @@ Parameters for hough transform line detecter were modified to detect medium to l
 
 Splitting lines belonging to left and right lanes requires slope thresholds. In the current implementation `min_slope` is set to `0.5` and `max_slope` to `0.8` for the right lane. These values are negated for the left lane.
 
-# 4. Shortcomings and possible improvements
+## 4. Shortcomings and possible improvements
 
 The implemented pipline with tuned parameters performs well on all test images and two of the test videos. When comparing the outcome with the provided example, one noticable difference are minor changes in slope from frame to frame. The slope of frames in the example video change less frequently and smoother. Possible improvements to achive the same result:
 
